@@ -11,7 +11,40 @@
     <title>Элементы форм№1 Как это сделать? HTML+CSS+JQuery</title>
   </head>
   <body>
-    <div class="wrapper"></div>
+    <div class="wrapper">
+      <form action="#" class="block-form">
+        <div class="block-form__title">Стили элементов форм</div>
+        <div class="block-form__input">
+          <div class="checkbox">
+            Выключатель №1
+            <input type="checkbox" checked name="namechackbox_1" />
+          </div>
+        </div>
+        <div class="block-form__input">
+          <div class="checkbox">
+            Выключатель №2
+            <input type="checkbox" name="namechackbox_2" />
+          </div>
+        </div>
+        <div class="block-form__input">
+          <div class="radiobuttons">
+            <div class="radiobuttons__item">
+              Вариант№1
+              <input type="radio" value="1" name="nameradio" />
+            </div>
+            <div class="radiobuttons__item">
+              Вариант№2
+              <input type="radio" value="2" name="nameradio" />
+            </div>
+            <div class="radiobuttons__item">
+              Вариант№3
+              <input type="radio" value="3" name="nameradio" />
+            </div>
+          </div>
+        </div>
+        <button class="button" typpe="submit">Отправить форму</button>
+      </form>
+    </div>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="js/script.js"></script>
   </body>
